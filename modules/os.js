@@ -1,22 +1,22 @@
 const os = require('os');
 
 // Platform
-console.log(os.platform());
+console.log("Operating System.. platform :  " + os.platform());
 
 // CPU Arch
-console.log(os.arch());
+console.log("Operating System.. CPU Arch :  " + os.arch());
 
 // CPU Core Info
-console.log(os.cpus());
+console.log("Operating System.. CPU Core : " + os.cpus());
 
 // Free memory
-console.log(os.freemem());
+console.log("Operating System.. Free memory  :  " + os.freemem());
 
 // Total memory
-console.log(os.totalmem());
+console.log("Operating System.. Total memory :  " + os.totalmem());
 
 // Home dir
-console.log(os.homedir());
+console.log("Operating System.. Home dir :  " + os.homedir());
 
 // Uptime
-console.log(os.uptime());
+console.log("Operating System.. Uptime :  " + os.uptime());

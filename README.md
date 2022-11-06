@@ -28,9 +28,26 @@ node index.js
 - Module Wrapper Function : __dirname, __filename
 ### modules
 - cd modules
-- path module : basename , dirname , extname , parse , join
+- path module : basename() , dirname() , extname() , parse() , join()
 - node path.js
-- fs module : 
-    - mkdir -> async method needs callback function , parameters: directory_name+folder_name , options , callback(error)
-    - writeFile -> async method needs callback function , parameters: directory_name+folder_name+file_name , data , callback(error)
+- fs module - File System:- 
+    - mkdir -> create folder
+        - async method needs callback function , parameters: directory_name+folder_name , options , callback(error)
+    - writeFile -> overwrite the content of file
+        - async method needs callback function , parameters: directory_name+folder_name+file_name , content to write , callback(error)
+    - File append
+    - Read file
+    - Rename file
+    - rmdir  -> delete folder
+    - write JSON File -> JSON.stringify([obj1 , obj2 , obj3])
+    - copyFile
 - node fs.js
+- os module - Operating System:-
+    - platform
+    - arch      -> CPU Arch
+    - cpus      -> CPU Core Info
+    - freemem   -> Free memory
+    - totalmem  -> Total memory
+    - homedir   -> Home directory
+    - uptime    -> Up time
+- node os.js

@@ -14,21 +14,22 @@ fs.writeFile(
   'Hello World!',
   err => {
     if (err) throw err;
-    console.log('File written to...');
 
-    // File append
-    fs.appendFile(
-      path.join(__dirname, '/test', 'hello.txt'),
-      ' I love Node.js',
-      err => {
-        if (err) throw err;
-        console.log('File written to...');
-      }
-    );
+    console.log('File written to...');   
   }
 );
 
-// Read file
+ // File append
+ fs.appendFile(
+  path.join(__dirname, '/test', 'hello.txt'),
+  ' I love Node.js',
+  err => {
+    if (err) throw err;
+    console.log('File written to...');
+  }
+);
+
+// Read file  , character encoding='utf 8' -> to get the actual data 
 fs.readFile(path.join(__dirname, '/test', 'hello.txt'), 'utf8', (err, data) => {
   if (err) throw err;
   console.log(data);
