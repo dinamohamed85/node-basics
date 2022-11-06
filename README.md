@@ -71,3 +71,8 @@ node index.js
     - uuid    -> random Universal Unique Identifier
     - npm install uuid 
 - node log_event.js
+- http module  :-
+    - Create server object
+    - Write response
+    - listening on port 
+- node http.js

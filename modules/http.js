@@ -7,4 +7,4 @@ http
     res.write('Hello World');
     res.end();
   })
-  .listen(5000, () => console.log('Server running...'));
+  .listen(5000, () => console.log('Server running and listening on port 5000 ...'));
