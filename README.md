@@ -12,10 +12,10 @@ npm install
 npm start
 ```
 node index.js 
-http://localhost:5000/
+- http://localhost:5000/
 
 # refrence 
-https://github.com/bradtraversy/node_crash_course
+ https://github.com/bradtraversy/node_crash_course
 
 ## what would you learn in this repo :-
 - module.exports , class , constructor , this , Module Wrapper Function
