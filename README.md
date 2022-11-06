@@ -4,6 +4,9 @@
 
 ## Quick Start
 
+- Download the latest version of node :
+- https://nodejs.org/en/download
+
 ```bash
 # Install dependencies
 npm install
