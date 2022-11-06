@@ -57,5 +57,6 @@ node index.js
     - pathname      -> Pathname
     - search        -> Serialized query
     - searchParams  -> Params object
-    - searchParams.append   -> Add param 
+    - searchParams.append    -> Add param 
+    - searchParams.get('')   -> get param by param name
 - node url.js
