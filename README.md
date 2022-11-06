@@ -44,10 +44,10 @@ node index.js
 - node fs.js
 - os module - Operating System:-
     - platform
-    - arch      -> CPU Arch
-    - cpus      -> CPU Core Info
+    - arch      -> CPU Architecture
+    - cpus      -> CPUs Core Info
     - freemem   -> Free memory
     - totalmem  -> Total memory
     - homedir   -> Home directory
-    - uptime    -> Up time
+    - uptime    -> the system uptime in number of seconds
 - node os.js
