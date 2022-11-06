@@ -17,11 +17,13 @@ npm start
 node index.js 
 - http://localhost:5000/
 
-# Refrence 
+## Refrence 
  https://github.com/bradtraversy/node_crash_course
  
- # Document
+## Node Documentation 
  https://nodejs.org/dist/latest-v18.x/docs/api/
 
 ## What would you learn in this repo :-
-- module.exports , class , constructor , this , Module Wrapper Function
+- class , constructor , this , method , module.exports 
+- Module Wrapper Function : __dirname, __filename
+- path module : basename , dirname , extname , parse , join
