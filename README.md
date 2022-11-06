@@ -44,10 +44,19 @@ node index.js
 - node fs.js
 - os module - Operating System:-
     - platform
-    - arch      -> CPU Architecture
-    - cpus      -> CPUs Core Info
-    - freemem   -> Free memory
-    - totalmem  -> Total memory
-    - homedir   -> Home directory
-    - uptime    -> the system uptime in number of seconds
+    - arch          -> CPU Architecture
+    - cpus          -> CPUs Core Info
+    - freemem       -> Free memory
+    - totalmem      -> Total memory
+    - homedir       -> Home directory
+    - uptime        -> the system uptime in number of seconds
 - node os.js
+- url module - Uniform Resource Locator:-
+    - href          -> Serialized URL
+    - host          -> Host (root domain)
+    - hostname      -> Hostname (does not get port)
+    - pathname      -> Pathname
+    - search        -> Serialized query
+    - searchParams  -> Params object
+    - searchParams.append   -> Add param 
+- node url.js

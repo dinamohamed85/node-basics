@@ -4,7 +4,7 @@ const url = require('url');
 *  if you get an error saying, TypeError: URL is not a constructor, 
 *  comment line 1, and uncomment line 2 */
 
-const myUrl = new URL('http://mywebsite.com/hello.html?id=100&status=active');
+const myUrl = new URL('https://explory24.com/blogs.html?category=tours');
 
 // Serialized URL
 console.log(myUrl.href);
