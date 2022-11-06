@@ -2,36 +2,37 @@ const fs = require('fs');
 const path = require('path');
 
 // Create folder
-// fs.mkdir(path.join(__dirname, '/test'), {}, err => {
-//   if (err) throw err;
-//   console.log('Folder created...');
-// });
+// directory name + folder name , options , callback(error)
+fs.mkdir(path.join(__dirname, '/test'), {}, err => {
+  if (err) throw err;
+  console.log('Folder created...');
+});
 
 // Create and write to file
-// fs.writeFile(
-//   path.join(__dirname, '/test', 'hello.txt'),
-//   'Hello World!',
-//   err => {
-//     if (err) throw err;
-//     console.log('File written to...');
+fs.writeFile(
+  path.join(__dirname, '/test', 'hello.txt'),
+  'Hello World!',
+  err => {
+    if (err) throw err;
+    console.log('File written to...');
 
-//     // File append
-//     fs.appendFile(
-//       path.join(__dirname, '/test', 'hello.txt'),
-//       ' I love Node.js',
-//       err => {
-//         if (err) throw err;
-//         console.log('File written to...');
-//       }
-//     );
-//   }
-// );
+    // File append
+    fs.appendFile(
+      path.join(__dirname, '/test', 'hello.txt'),
+      ' I love Node.js',
+      err => {
+        if (err) throw err;
+        console.log('File written to...');
+      }
+    );
+  }
+);
 
 // Read file
-// fs.readFile(path.join(__dirname, '/test', 'hello.txt'), 'utf8', (err, data) => {
-//   if (err) throw err;
-//   console.log(data);
-// });
+fs.readFile(path.join(__dirname, '/test', 'hello.txt'), 'utf8', (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
 
 // Rename file
 fs.rename(
@@ -42,9 +43,6 @@ fs.rename(
     console.log('File renamed...');
   }
 );
-
-
-
 
 
 
@@ -94,12 +92,10 @@ fs.mkdir(path.join(__dirname, "/data"), {}, err => {
 })
 
 
-
-
 // delete a folder
 // NOTE : you must create a folder named "myFolderToDelete".
 // NOTE : myFolderToDelete must be an empty folder.
-fs.rmdir(path.join(__dirname, "/myFolderToDelete"), (err) => {
+fs.rmdir(path.join(__dirname, "/folderToDelete"), (err) => {
   if (err) throw err;
 
   console.log("Folder deleted ...");
@@ -108,6 +104,7 @@ fs.rmdir(path.join(__dirname, "/myFolderToDelete"), (err) => {
 
 // Read the contents of a folder
 // NOTE: the first argument can be whatever route you want, it doesn't have to be the actual dirname.
+/*
 fs.readdir(__dirname, (err, files) => {
   if (err) throw err
   console.log(files)
@@ -118,3 +115,4 @@ fs.copyFile('source.txt', 'destination.txt', err => {
   if (err) throw err;
   console.log('File copied...')
 })
+*/

@@ -26,4 +26,11 @@ node index.js
 ## What would you learn in this repo :-
 - class , constructor , this , method , module.exports 
 - Module Wrapper Function : __dirname, __filename
+### modules
+- cd modules
 - path module : basename , dirname , extname , parse , join
+- node path.js
+- fs module : 
+    mkdir -> async method needs callback function , parameters: directory_name+folder_name , options , callback(error)
+    writeFile -> async method needs callback function , parameters: directory_name+folder_name+file_name , data , callback(error)
+- node fs.js

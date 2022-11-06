@@ -19,7 +19,7 @@ console.log(path.join(__dirname, 'test', 'hello.html'));
 
 // More examples
 
-
+/*
 // get the path delimiter base on the current OS Environment
 const platSpec = path.delimiter;
 
@@ -43,3 +43,4 @@ console.log(pathformat);
 const parentDir = path.dirname(__dirname);
 
 console.log(parentDir);
+*/
