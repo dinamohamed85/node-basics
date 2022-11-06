@@ -68,5 +68,6 @@ node index.js
     - 3- object.on(event_name, callback function)   -> create Event listener
     - 4- object.emit(event_name)    -> Fire (raise/call) this Event 
     - Backticks ``
-    - uuid    -> Universal Unique Identifier
+    - uuid    -> random Universal Unique Identifier
     - npm install uuid 
+- node log_event.js
