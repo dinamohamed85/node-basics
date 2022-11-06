@@ -3,7 +3,7 @@ const EventEmitter = require('events');
 // Create class
 class MyEmitter extends EventEmitter {}
 
-// Init object
+// Init object - instance from the created class
 const myEmitter = new MyEmitter();
 
 // Event listener
