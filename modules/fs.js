@@ -92,9 +92,16 @@ fs.mkdir(path.join(__dirname, "/data"), {}, err => {
 })
 
 
+// Create folder to be deleted 
+// directory name + folder name , options , callback(error)
+fs.mkdir(path.join(__dirname, '/folderToDelete'), {}, err => {
+  if (err) throw err;
+  console.log('Folder created...');
+});
+
 // delete a folder
-// NOTE : you must create a folder named "myFolderToDelete".
-// NOTE : myFolderToDelete must be an empty folder.
+// NOTE : you must create a folder named "folderToDelete".
+// NOTE : folderToDelete must be an empty folder.
 fs.rmdir(path.join(__dirname, "/folderToDelete"), (err) => {
   if (err) throw err;
 
