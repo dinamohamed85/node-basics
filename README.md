@@ -1,7 +1,9 @@
 # Node Crash Course Files
 
 > These files go with the Node crash course on YouTube.
-
+## Refrence 
+ https://github.com/bradtraversy/node_crash_course
+ 
 ## Quick Start
 
 - Download the latest version of node :
@@ -17,9 +19,6 @@ npm start
 node index.js 
 - http://localhost:5000/
 
-## Refrence 
- https://github.com/bradtraversy/node_crash_course
- 
 ## Node Documentation 
  https://nodejs.org/dist/latest-v18.x/docs/api/
 
