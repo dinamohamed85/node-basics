@@ -62,7 +62,7 @@ node index.js
     - searchParams.get('')   -> get param by param name
 - node url.js
 - events module  :-
-    - API Application programming interface
+    - API - Application programming interface
     - 1- create new class extends EventEmitter class whice is returend from require('events')
     - 2- create new instance (object) from the created class
     - 3- object.on(event_name, callback function)   -> create Event listener

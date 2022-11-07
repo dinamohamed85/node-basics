@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Create folder
-// directory name + folder name , options , callback(error)
+// (directory name + folder name) , {options} , callback(error)
 fs.mkdir(path.join(__dirname, '/test'), {}, err => {
   if (err) throw err;
   console.log('Folder created...');
@@ -55,6 +55,7 @@ const users = [
   { name: "Kally" }
 ]
 
+// users list + json file //
 // create folder
 fs.mkdir(path.join(__dirname, "/data"), {}, err => {
   if (err) throw err;
