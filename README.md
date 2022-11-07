@@ -76,3 +76,12 @@ node index.js
     - Write response
     - listening on port 
 - node http.js
+
+- ## example to practise modules :-
+    - add the follwing two property to "scripts" into package.json
+        - "start": "node index",
+        - "dev": "nodemon index"
+    - npm run dev
+    - http://localhost:5000
+    - http://localhost:5000/about
+    - http://localhost:5000/api/users
